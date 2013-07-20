@@ -90,20 +90,10 @@ zenmap
 # or you can just comment everything except the package of your
 # preferred desktop.
 
-#if ARCHITECTURES i386 amd64
-# *** GNOME DESKTOP ***
-gnome-core
-gnome-brave-icon-theme
-gnome-shell-extensions
-gnome-orca
-#endif
-
-#if ARCHITECTURES armel armhf
 # *** XFCE DESKTOP ***
 xfce4
 network-manager-gnome
 network-manager
-#endif
 
 # *** KDE DESKTOP ***
 # kde-plasma-desktop
